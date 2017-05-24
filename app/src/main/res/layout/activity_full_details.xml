@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:padding="8dp"
+        android:textSize="16dp"
+        android:id="@+id/textName"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mobile Number"
+        android:padding="8dp"
+        android:textSize="16dp"
+        android:id="@+id/textMobile"/>
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Email Id"
+           android:padding="8dp"
+           android:textSize="16dp"
+           android:id="@+id/textEmail"/>
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="City"
+           android:textSize="16dp"
+           android:padding="8dp"
+           android:id="@+id/textCity"/>
+</LinearLayout>
